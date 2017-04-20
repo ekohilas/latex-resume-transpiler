@@ -34,6 +34,6 @@ To compile tex only:
 * Hyperlinks  
     ``[text](https://www.link.com)``  
 * Insertion of raw latex code  
-    ``` ``pagebreak`` ```
+    ``` ``\pagebreak`` ```
 * Escaping of reserved latex characters  
 
