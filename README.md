@@ -31,9 +31,9 @@ To compile tex only:
 ## Supports
 * Commenting with strikethroughs  
     ``~~comment~~``
-* Hyperlinks
+* Hyperlinks  
     ``[text](https://www.link.com)``  
-* Insertion of raw latex code
+* Insertion of raw latex code  
     ``` ``pagebreak`` ```
 * Escaping of reserved latex characters  
 
