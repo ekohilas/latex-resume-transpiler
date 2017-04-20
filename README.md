@@ -1,7 +1,6 @@
 # latex-resume-transpiler
 ## Generates a resume using a formatted markdown file
-### Source LaTeX can be found
-[here](https://github.com/ekohilas/two-column-resume-latex)
+### Source LaTeX can be found [here](https://github.com/ekohilas/two-column-resume-latex)
 
 To compile:
 ``make``
