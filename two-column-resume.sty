@@ -1,0 +1,71 @@
+% Colors
+\RequirePackage{xcolor}
+\definecolor{header-color}      {HTML}{CCCCCC}
+\definecolor{title-color}       {HTML}{000000}
+\definecolor{subtitle-color}    {HTML}{000000}
+\definecolor{details-color}     {HTML}{000000}
+
+\definecolor{section-color}     {HTML}{000000}
+\definecolor{heading-color}     {HTML}{000000}
+\definecolor{subheading-color}  {HTML}{000000}
+\definecolor{text-color}        {HTML}{000000}
+\definecolor{link-color}        {HTML}{000000}
+
+%Fonts
+\RequirePackage[quiet]{fontspec}
+\defaultfontfeatures{Ligatures=TeX}%{Mapping=tex-text}
+
+\newfontfamily\headfont{Roboto}
+\newfontfamily\secfont{Roboto}
+\newfontfamily\textfont{Roboto}
+\newfontfamily\monofont{Roboto Mono}
+\setmainfont[Color=text-color]{Roboto}
+\setmonofont[Color=text-color]{Roboto Mono}
+
+\newcommand{\titlefont}{%
+  \fontsize{40pt}{40pt}\selectfont%
+  \headfont%
+  \color{title-color}%
+}
+
+\newcommand{\subtitlefont}{%
+  \fontsize{14pt}{14pt}\selectfont%
+  \textfont%
+  \color{subtitle-color}%
+}
+
+\newcommand{\sectionfont}{%
+  \fontsize{20pt}{20pt}\selectfont%
+  \secfont%
+  \color{section-color}%
+}
+
+\newcommand{\headingfont}{%
+  \fontsize{16pt}{16pt}\selectfont%
+  \textfont%
+  \color{heading-color}%
+}
+
+\newcommand{\subheadingfont}{%
+  \fontsize{14pt}{14pt}\selectfont%
+  \textfont%
+  \color{subheading-color}%
+}
+
+\newcommand{\detailsfont}{%
+  \fontsize{14pt}{14pt}\selectfont%
+  \textfont%
+  \color{details-color}%
+}
+
+\newcommand{\normfont}{%
+  \fontsize{11pt}{13.5pt}\selectfont%
+  \textfont%
+  \color{text-color}%
+}
+
+\newcommand{\linkfont}{%
+  \fontsize{10pt}{11pt}\selectfont%
+  \monofont%
+  \color{text-color}%
+}
